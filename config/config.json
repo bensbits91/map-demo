@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-map-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointMapDemo/SharePointMapDemoWebPart.js",
+          "manifest": "./src/webparts/sharePointMapDemo/SharePointMapDemoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointMapDemoWebPartStrings": "lib/webparts/sharePointMapDemo/loc/{locale}.js"
+  }
+}

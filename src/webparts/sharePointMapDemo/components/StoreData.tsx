@@ -1,0 +1,58 @@
+const StoreData = [ 
+    {
+        'City': 'Los Angeles',
+        'Last Week Sales': '$11,240.33',
+        'Last Week Guest Count': '894',
+        'Address': '12345 NW Market Street, Los Angeles, CA 91919',
+        'manager_id': '1',
+        'Owner/Parent': 'LA Store Corp.',
+        'img_url': 'https://www.landmarkpacific.com/wp-content/uploads/sites/5/2017/08/generic-store-fronts.jpg',
+    },
+    {
+        'City': 'San Diego',
+        'Last Week Sales': '$14,240.44',
+        'Last Week Guest Count': '1,194',
+        'Address': '12345 NW Washington Street, San Diego, CA 91919',
+        'manager_id': '2',
+        'Owner/Parent': 'San Diego Store Corp.',
+        'img_url': 'https://images1.loopnet.com/i2/vfV9JjUQjbDrss9gzaJ1Otc5y7G5bguFjOCO4NKuScM/110/image.jpg',
+    },
+    {
+        'City': 'Bakersfield',
+        'Last Week Sales': '$12,332.22',
+        'Last Week Guest Count': '882',
+        'Address': '12345 NW Park Ave., Bakersfield, CA 91919',
+        'manager_id': '3',
+        'Owner/Parent': 'Bakersfield Store Corp.',
+        'img_url': 'https://dennislasassajrplumbing.com/files/bigstock/2016/02/New-Commercial-Store-Front-5714886.jpg',
+    },
+    {
+        'City': 'Long Beach',
+        'Last Week Sales': '$8,240.12',
+        'Last Week Guest Count': '723',
+        'Address': '12345 NW Market Street, Long Beach, CA 91919',
+        'manager_id': '4',
+        'Owner/Parent': 'Long Beach Store Corp.',
+        'img_url': 'https://thumbs.dreamstime.com/z/generic-shopping-center-store-15854507.jpg',
+    },
+    {
+        'City': 'Las Vegas',
+        'Last Week Sales': '$15,747.73',
+        'Last Week Guest Count': '1,589',
+        'Address': '12345 NW Main Street, Las Vegas, NV 91919',
+        'manager_id': '5',
+        'Owner/Parent': 'Las Vegas Store Corp.',
+        'img_url': 'https://static9.depositphotos.com/1658611/1134/i/950/depositphotos_11345154-stock-photo-generic-retail-hardware-store-building.jpg',
+    },
+    {
+        'City': 'Phoenix',
+        'Last Week Sales': '$13,240.98',
+        'Last Week Guest Count': '1,094',
+        'Address': '12345 NW Market Street, Phoenix, AZ 91919',
+        'manager_id': '6',
+        'Owner/Parent': 'Phoenix Store Corp.',
+        'img_url': 'https://yumacasa.com/wp-content/uploads/2018/05/Commercial-Building-11.jpg',
+    },
+]
+
+export default StoreData;

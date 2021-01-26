@@ -1,0 +1,77 @@
+#workbenchPageContent, .CanvasZone {
+    max-width: unset;
+    border: none;
+}
+
+
+.nice-list {
+    margin-left: 50px;
+}
+.nice-list .ms-ActivityItem {
+    padding-bottom: 8px;
+}
+
+i.black {
+    color: black;
+}
+i.darkorange {
+    color: #f53;
+}
+
+.ms-Panel-headerText {
+    font-size: 60px;
+    line-height: 60px;
+}
+.panel-section-wrap {
+    margin-top: 50px;
+}
+.panel-section-wrap.mgr {
+    margin-top: 0;
+}
+.panel-section-wrap h2 {
+    font-weight: 100;
+    margin-left: 40px;
+}
+.panel-image-wrap {
+    padding-left: 70px;
+    margin-top: -40px;
+}
+.panel-mgr-wrap {
+    margin-left: 50px;
+}
+
+
+
+.panel-chart-wrap {
+    margin-top: 18px;
+    padding-left: 42px;
+}
+.chart-wrap-outer {
+	margin: 25px 75px;
+}
+.chart-label {
+	width: 100px;
+}
+
+
+
+.dark .ms-Panel-main {
+    background-color: #333;
+}
+
+.dark .ms-Panel-commands i.ms-Button-icon,
+.dark .ms-Panel-headerText,
+.dark .panel-mgr-wrap .ms-Persona-details i,
+.dark .nice-list i {
+    color: #34bebd;
+    /* color: #f53; */
+}
+.dark.ms-Panel h2,
+.dark .nice-list *,
+.dark .panel-mgr-wrap .ms-Persona-details * {
+    color: #ccc;
+}
+.dark .panel-mgr-wrap .ms-Persona-primaryText {
+    font-weight: 100;
+    font-size: 20px;
+}
